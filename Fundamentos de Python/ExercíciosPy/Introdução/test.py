@@ -1,0 +1,8 @@
+print('Chamada de função do Ubunto')
+input('Digte a função que deseja executar: ')
+install = ('Sudo apt-get remove + nome do aquivo')
+delete = ('Sudo apt-get install + nome do arquivo')
+cancelar = ('Ctrl + C')
+Limpar = ('Ctrl + L')
+Versão = ('lsb_release -a')
+x = ('Digite quantas funções você precisa')

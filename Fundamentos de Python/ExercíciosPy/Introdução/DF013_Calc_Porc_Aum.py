@@ -1,0 +1,5 @@
+print('Porcentagem de 15% de aumento no salário')
+salario = float(input('Digite o valor do seu salário: R$'))
+por = int(input('Digite o valor inteiro da porcentagem de desconto: '))
+novosal = salario + (salario * 15 / 100)
+print(f'Com os {por}% de desconto, seu salário de R${salario:.2f}\n Vai para R${novosal:.2f}')

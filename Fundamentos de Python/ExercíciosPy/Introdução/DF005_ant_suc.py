@@ -1,0 +1,5 @@
+print('Antecessor e sucessor de um número')
+a = int(input('tpe a value any: '))
+ant = (a - 1)
+suc = (a + 1)
+print(f'O antecessor de {a} é {ant} e seu sucessor é {suc}')

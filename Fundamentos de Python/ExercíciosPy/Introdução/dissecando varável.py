@@ -1,0 +1,6 @@
+a = input('Type a value any: ')
+print('O tipo primitivo dessa variável é: ', type(a))
+print('Is numeric?', a.isnumeric())
+print('Is Space? ', a.isspace())
+print('Is Upper: ', a.isupper())
+print('....')

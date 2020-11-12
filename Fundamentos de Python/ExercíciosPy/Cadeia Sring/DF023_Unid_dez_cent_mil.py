@@ -1,0 +1,7 @@
+num_int = int(input('Type a value: '))
+num_str = str(num_int)
+print(f'Analisando o número {num_int}')
+print(f'Unidade: {num_str[3]}')
+print(f'Dezena: {num_str[2]}')
+print(f'centena: {num_str[1]}')
+print(f'Milhar: {num_str[0]}')

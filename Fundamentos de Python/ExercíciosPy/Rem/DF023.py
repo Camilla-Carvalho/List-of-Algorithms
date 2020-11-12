@@ -1,0 +1,6 @@
+num = int(input('Digite um número de 1 à 9999: '))
+U = (num // 1 % 10)
+D = (num // 10 % 10)
+C = (num // 100 % 10)
+M = (num // 1000 % 10)
+print(f'A unidade é {U}\n A Dezena é {D}\n A Centena é {C}\n e o Milhar é {M}')

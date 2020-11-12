@@ -1,0 +1,6 @@
+print('Dobro, tripo e raiz quadrada de um número')
+var = int(input('Type a value any: '))
+dobro = (var + var)
+triplo = (dobro + var)
+raiz = (var ** (1/2))
+print(f'O dobro de {var} é {dobro}, o triplo é {triplo} e a raiz é {raiz}')
